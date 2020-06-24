@@ -1,0 +1,221 @@
+ 
+  /*----------------------defolt css start -----------------------*/
+  *{
+  margin: 0px;
+  padding: 0px;
+  color: #ff2121;
+  font-family: arial;
+  }
+
+body{ font-family: arial;
+    font-size: 12px;}
+
+h2,h3,{font-family: arial black;
+    font-size: 2px;}
+
+  /*----------------------defolt css end -----------------------*/
+
+
+
+img{width: 100% }
+footer{background: #333;
+  color: white;
+  margin: auto;
+  text-align: center;
+  margin-top: 84px;
+}
+
+
+    /*----------------------header nav start -----------------------*/
+
+nav{
+    background: #e8d5e0eb;
+    border: 2px solid #908282ba;
+    overflow: hidden;
+    padding: 13px 0px;
+    border-bottom: 3px solid orange;
+    }
+#mainmanu{list-style: none;float: right;}
+#mainmanu li{display: inline-block; }
+#mainmanu li a{text-decoration: none;text-transform: uppercase;
+    padding: 15px 20px;font-size: 18px;color: #444 ;transition: all 1s}
+
+#menuinnor{
+	  float: right;
+	  width: 698px;
+	  margin-top: 39px;
+}
+
+#mainmanu li a:hover{background: teal;
+                    padding: 10px;color: white;
+                    border-bottom: 3px solid orange}
+
+#logo{
+    float: left;
+    width: 343px;
+    border: 2px solid #67d02e;
+    box-shadow: 0px 6px 20px 0px black;
+    }
+ .manudiv{width: 1170px;margin: auto;overflow: hidden;}
+
+
+
+ /*------------------------header nav end --------------------------*/
+
+ /*------------------------templte css strart --------------------------*/
+
+section#tamplte{height: 450px;
+  background:
+  linear-gradient(#00000057,#00000057),
+  linear-gradient(#00000057,#00000057),
+  url(img/about.webp);}
+
+                          
+ #tamplte h2{text-align: center;  font-family: arial black;
+            font-size: 50px;
+            line-height: 63px;
+            margin-top: 152px;
+            position: absolute;
+            left: 21px;
+            color: aliceblue;
+            text-shadow: -1px 0px 20px #DF0, 0 0 47px #181821, 0 0 8px #29295B;}
+
+
+/*------------------------templte css end --------------------------*/
+
+/*------------------------all blog css start --------------------------*/
+
+.habib{
+    background: #2c2d2cf0;
+    padding: 87px;
+    margin-top: 0px;
+    overflow: hidden;
+    display: block;
+    border-top: 2px solid #b9a2a2;
+    }
+
+#main{width: 335px;
+    border: 3px solid #252529;
+    background: #ffff;
+    padding: 15px;
+    border-radius: 7px;
+    margin: 8px;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 1s;
+    color: red;}
+    #manu{width: 1170px;margin: auto;padding: 20px 0px}
+
+#main:hover{background: transparent;color: white;transform:translateY(-10px); }
+
+  #headding {color: red;
+    text-align: center;
+    font-family: arial black;
+    font-size: 40px;
+    padding: 2px;
+    margin-bottom: 36px;}
+
+              span{color: white}
+
+div h2{font-family: arial black;
+    font-size: 22px;
+    padding-bottom: 6px;}
+
+
+
+   /*-------------------------all blog  css end --------------------------*/
+
+
+
+   /*-------------------------about me  css start --------------------------*/
+    .fast{color: #252424;}
+         .aboutimag{width: 400px;}
+
+                #aboutright{width: 700px;float: right;}
+
+        #aboutright,.aboutimag{display:inline-block; }
+
+           #aboutright h2{
+    border-bottom: 2px solid;
+    padding-bottom: 0px;
+    padding-top: 7px;
+    font-family: arial black;
+    font-size: 25px;
+    color: #675353;
+}
+               .praghraph ,p{
+    font-family: arial;
+    color: #e2b5b5;
+    padding-top: 13px;
+    font-size: 15px;
+    }
+                                                   
+    .allblock{width: 1170px;margin: auto;padding: 20px 0px}
+   
+        span{color: white}
+
+
+         /*-------------------------about me  css end --------------------------*/
+
+footer{
+  width: 100%;
+  background: #191818db;
+  bottom: 4px;
+  border-top: 3px solid orange;
+}
+.mainecontent{
+      display: flex;
+      width: 1293px;
+      margin-top: 25px;
+      margin-bottom: 0px;
+      }
+.mainecontent h2{margin-bottom: 20px;
+          font-family: arial black;
+          color: #fff8f8;
+          border-bottom: 2px solid orange;
+          font-size: 26px;}
+#leftside{width: 262px;margin: auto;margin-left: 111px;
+  padding-bottom: 42px;}
+
+#right{width:350px;height: 60px;}
+
+.rihtdside{width: 351px;margin-left: 68px;margin-bottom: 32px;}
+
+  #image img{width: 23px;
+        border-radius: 4px;
+        padding: 0px;
+        margin-right: 15px;
+        transition: all 0.7s} 
+  #image img:hover{width: 33px;border-radius: 7px;
+    padding: 4px;margin-right: 10px;}
+  
+
+  #asol{
+         display: flex;
+        }
+        #sendsms{width: 81%;display: inline-grid;margin-top: 0px;}
+
+      #sendsms input{padding: 3px;margin-top: 2px;color: #131111;}
+
+
+      .icone img{
+            width: 27px;
+            border-radius: 17px;
+            padding: 5px;
+            margin-right: 15px;transition: all 0.5s
+            }
+
+  .icone{width: 500px;margin-left: 415px;margin-top: 21px;}
+  .icone img:hover{background: red;width: 35px}
+
+img{width: 100% }
+
+
+ /*-------------------------footer  css end --------------------------*/
+ /*-------------------------copyright  css strat --------------------------*/
+
+footer{background: #333;color: white;margin: auto;text-align: center;
+
+    margin-top: 84px;}
+    #lastdiv{background: #000000;padding: 15px;color: white;font-size: 13px;}
+ /*-------------------------copyright  css strat e---------------------------*/
